@@ -1,0 +1,23 @@
+$color_1:#545454;
+.container2 div {
+    .contant{
+        color:$color_1;
+    }
+}
+
+@mixin flexible () {
+   margin: 0 auto;
+   text-align: center;
+   color: black;
+  }
+
+  .container7 .localwrapper7{
+    @include flexible ()
+  }
+
+
+  @function remy($pxsize) {
+    @return ($pxsize/10)+rem;
+}
+
+.container1 .text .who { font-size: remy(12); }

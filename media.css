@@ -1,0 +1,186 @@
+
+@media(max-width:1300px){
+    .container4 .container .localwrapper{
+        width: 70em;
+        margin-left: 0em;}
+        .container4 .container div .img{
+               width:30em;
+               margin-left: -9em;
+            }
+            .container3 div .fotog {
+                max-width: 1100px;
+                margin-left: -1em;
+                position: relative;
+                }
+        }
+@media(max-width:1200px){
+            .container4 .container .localwrapper{
+                width: auto;
+                margin-left: -2em;}
+                .container4 .container div .img{
+                       width:25em;
+                       margin-left: -3em;
+                    }
+         .container4 .container div .contant{
+                    color:#666666;
+                    font-size: 0.7em;
+                    }        
+                    .container7 .localwrapper7 .inputS .i3{
+                        width: 30em;
+                    }
+                    .container7 .localwrapper7 .inputS .i4{
+                        width: 30em;
+                    }
+                    .container7 .localwrapper7 .inputS .btn{
+                        width: 30em;
+                    }
+                
+                .container7 .localwrapper7 .inputS{
+                    margin-left: 1em;
+                }
+                .container7 .localwrapper7 .inputS .i1{
+                    width: 13.4em;
+                }
+                .container7 .localwrapper7 .inputS .i2{
+                    height: 4em;
+                    width: 13.4em;
+                    margin-left: -0.1em;
+                }
+                .container7 .localwrapper7 .map{
+                    width: 27em;
+                    margin-left: -2em;
+                }
+}
+    
+@media(max-width:1120px){
+    .container2 div img{
+            margin-top: 4em;
+        height: 150px;
+        }
+       
+}
+@media(max-width:998px){
+    header .container .menu {
+        max-width: 90%;
+    }
+    .container3 div .fotog div img{
+        height:190px;
+            }
+            .container2 .services{
+                padding-bottom: 1em;
+            }
+            .container2{
+                width: 100%;
+                height: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .container2 div .contant{
+                text-align: center;
+                padding-bottom: 0em;
+            }
+            .container2 div img{
+                    margin-top: 0em;  
+                }
+                .container2 div{
+                    height: auto;
+                }
+}
+@media(max-width:800px){
+    header .container .menu .row p{
+       width: 8%;
+    }
+}
+@media(max-width:768px){
+    .container4 .container .localwrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+        .container4 .container div .img{
+          height:18em;
+          width: 100%;
+          margin-left:0.1em ;
+            margin-top: -7em;
+            }
+            .container4 .container .name2{
+               margin-bottom: 0em;}
+}
+
+@media(max-width:991px){
+    .container7 .contant{
+        padding-bottom: 2em;}
+    .container7 .localwrapper7 .map{
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        margin-bottom: 1em;    }
+        .container7 .localwrapper7 .inputS{
+            margin: 0 auto;
+            padding-left: 1em;
+          
+        margin-bottom: 1em;
+        }
+        .container7 .localwrapper7 .inputS .i2{  width: 15em;}
+         .container7 .localwrapper7 .inputS .i1{  width: 14em; }
+         .container7 .localwrapper7 .inputS .btn{margin-bottom: 2em;}
+}
+@media(max-width:767px){
+    .container7 .localwrapper7 .inputS .i2{  width: 14.5em;}
+    .container7 .localwrapper7 .inputS .i1{  width: 14.5em; }
+    .container7 .localwrapper7 .inputS .btn{margin-bottom: 2em;}
+    .container7 .localwrapper7 .inputS{
+        margin: 0 auto;
+        padding-left: 2em;
+    }
+}
+@media(max-width:768px){
+    .container3 div .fotog {
+        width: 100%
+        }
+    .container3 div .fotog div img{
+    height:150px;
+        }
+    .container3 div .fotog div #im4{
+        display: none;
+    }
+  
+}
+@media(max-width:540px){
+ .container2 div img{
+    margin-top: 4em;
+height: 120px;
+}   
+.container3 div .fotog div img{
+    height:200px;
+        }
+        .container5 .container .localwrapper5 {
+            height: auto;
+            width: 90%;
+            text-align: center;
+            background-color: black;
+            margin: 0 auto;
+            margin-top: 3em;
+            margin-bottom:3em ;
+        }
+        .container5 .container .localwrapper5 div .name5{
+         padding-left: 0em;
+     }
+    
+}
+
+@media(max-width:530px){
+    .container7 .localwrapper7 .inputS .i2{  width: 46%;
+        height: 2em;}
+    .container7 .localwrapper7 .inputS .i1{  height: 2em; width: 46%; }
+    .container7 .localwrapper7 .inputS .i3{  height: 2em; width: 98%; }
+    .container7 .localwrapper7 .inputS .i4{  height: 2em; width: 98%; }
+    .container7 .localwrapper7 .inputS .btn{
+        width: 98%;
+        height: 2em;
+        margin-bottom: 2em;}
+    .container7 .localwrapper7 .inputS{
+      height: auto;
+      width: auto;
+    }
+}
+

@@ -1,0 +1,104 @@
+header{
+    width: 100%;
+    max-height: 90px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    }
+    header .container .menu {
+        max-width: 650px;
+        margin: 0 auto;
+        z-index: 2;
+    }
+    header .container .menu .row li{
+        margin: 30px auto;
+        cursor: pointer;
+        display: inline-block;
+        z-index: 2;
+    }
+    
+    header .container .menu .row li a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 12px;
+        text-align: center;
+        display: inline-block;
+        z-index: 2;
+    }
+    header .container .menu .row li a:hover{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    z-index: 2;
+    }
+    header .burger {
+        display: none;
+         width: 45px;
+         height: 35px;
+         position: relative;
+        cursor: pointer;
+        z-index: 2;
+        }
+
+     @media(max-width: 998px){
+         header{
+             height: 3em;
+             max-width: 100%;
+         }
+        header .burger{
+            display: inline-block;
+            width: 70px;
+            height: 30px;
+            background-color: rgba(27, 27, 27, 0.336);
+            cursor: pointer;
+            margin-top: 0.5em;
+            z-index: 2;
+        }
+        header .burger i{
+            display: block;
+            height: 4px;
+            width: 80%;
+            margin: 5px auto;
+            background-color: white;
+            z-index: 2;
+        }
+        header .menu{
+            display: none;
+            justify-content: space-between;
+            position: relative;
+            z-index: 2;
+            width: 100%;
+        }
+        header .show{
+            display: flex;
+            z-index: 2;
+        }
+        header ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: start;
+            width: 100%;
+            
+            margin-top: -1.5em;
+            z-index: 2;
+          
+        }
+        header .menu ul li{
+            display: flex;
+            z-index: 2;
+        }
+        header .menu ul li a{
+            text-decoration: none;
+            color: #333333;
+            font-family:'Georgia Italic';
+            font-weight: 400;;
+            font-size: 16px;
+            font-weight: 500;
+            z-index: 2;
+            
+        }
+     }

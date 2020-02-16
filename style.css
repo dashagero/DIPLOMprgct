@@ -1,0 +1,484 @@
+.wrapper{
+   width: 100%;
+}
+
+.container1{
+    height: 50em;
+    background-image: url(./img/container1.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+    background-size:cover;
+    width: 100%;
+}
+
+.container1  .text .name  {
+    text-align: center;
+    padding-top: 15em;
+    width: 100%;
+    
+}
+.container1 .text .who{
+font-size: 20px;
+text-align: center;
+padding-top: 3em;
+display: block;
+}
+.container1 .portfolio {
+text-align: end;  
+margin-right: 10em;
+margin-top: 12em;
+cursor: pointer;
+}
+
+.container1 .portfolio a{
+text-decoration: none;
+color:#000000;
+font-family: 'Georgia Italic';
+font-weight: 400;
+font-style: italic;
+font-size: 12px;
+}
+.container1 .portfolio a:hover{
+    font-size: 15px;
+font-weight: 700;
+}
+.container2{ 
+min-height: 50em;
+width: 100%;
+}
+
+.container2 div{
+    height: 60em;  
+    width: 100%;
+}
+.container2 .services{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 3em;
+   text-align: center;
+}
+.container2 .row div{
+    margin: 0 auto; 
+}
+.container2 div img{
+border-radius: 50%;
+    margin-top: 5em;
+   
+}
+.container2 div .title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding-top: 2.5em;
+   text-align: center;
+}
+.container2 div .contant{
+    text-decoration: none;
+    font-family: 'Georgia Italic';
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 4em;
+}
+.container3{
+    width: 100%;
+    background:#f8f8f8;
+}
+.container3 div .text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 3em;
+   text-align: center;
+   color: black;
+}
+.container3 .container .text span{
+    font-size:1em;
+    color: #cfc695;  
+}
+.container3 div .contant{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Georgia Italic';
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 6em;
+}
+.container3 div .view{
+    margin-top: 2em;
+text-align: center;
+padding-bottom: 4em;
+cursor: pointer;
+}
+.container3 div .view a{
+text-decoration: none;
+color:#000000;
+font-family: 'Georgia Italic';
+font-size: 0.8em;
+}
+.container3 div .view a:hover{
+    font-size: 15px;
+font-weight: 700;
+}
+.container3 div .fotog {
+max-width: 1200px;
+margin: 0 auto;
+position: relative;
+}
+.container3 div .fotog div img{
+    background-repeat:no-repeat;
+    background-size:cover;
+    max-height: 275px;
+    margin: 0 auto;
+}
+
+
+/* .text {
+     padding: 10px;
+    height: 290px;
+    z-index: 1;
+}
+.container4 .container div div .box{
+    height: 30em;
+    width:30em;
+}
+.container4 .container div div .img {
+background-image: url(./img/girla.png);
+height: 520px;
+width:100%;
+}
+
+
+.adaptive_box {
+    margin-left: -8.33333333%;
+}
+
+@media (max-width: 767px) {
+    .adaptive_box {
+        margin-left: 0;
+    }
+} */
+.container4{
+   max-width: 100%;
+}
+.container4 .container .title{font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    padding-top: 2.5em;
+   text-align: center;}
+
+.container4 .container .name2{
+    text-align: center;
+    color:#666666;
+    font-family: 'Georgia Italic';
+    font-size: 0.8em;
+margin-bottom: 7em;}
+    .container4 .container .title span{
+        font-size:1em;
+        color: #cfc695;  
+    }
+.container4 .container .name2 span{
+    color:#000000;
+    font-family: 'Georgia Italic';
+    font-size: 0.8em;}
+    .container4 .container .localwrapper{
+        width: 75em;
+        margin-left: -5em;
+        padding-bottom: 3em;
+        position: sticky;
+    }
+   
+    .container4 .container div .contant{
+    color:#666666;
+    font-family: 'Georgia Italic';
+    font-size: 1em;
+    text-align: center;
+    padding-top: 3em;
+    margin-bottom: 7em;
+    z-index: 2;
+    }
+    .container4 .container div .img{
+    background-image: url(./img/girla.png);
+       max-width:50em;
+       margin-left: -7em;
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+    .container5{
+    max-width: 100%;
+ position: static;
+}
+.container5 .row{
+    margin:0px;
+    padding:0;
+}
+    .container5 .container .localwrapper5 {
+        min-height: 30em;
+        max-width: 36em;
+        background-color: black;
+        margin-top: 10em;
+        margin-bottom:10em;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .container5 .container .localwrapper5 div .pr{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+        color: white;
+        padding-top: 1em;
+       text-align: center;
+    padding-bottom: 2em;}
+
+    
+    .container5 .container .localwrapper5 div .pr span{
+        font-size:1em;
+        color: #cfc695;  
+    }
+    .container5 .container .localwrapper5 div .name5{
+           text-align: start;
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 0.9em;
+        padding-left: 4em;
+    }
+    .container5 .container .localwrapper5 div .price{
+           text-align: start;
+        color:white;
+        font-family: 'Georgia Italic';
+        font-weight: 300;
+        font-size: 1em;
+    }
+    .container5 .container .localwrapper5 .link a{
+        text-decoration: none;
+        color:white;
+        font-family: 'Georgia Italic';
+        font-size: 0.8em;  
+        text-align: center;
+    }
+    .container5 .container .localwrapper5 .link{
+        text-align: center;
+        padding-top: 2em;
+    }
+  
+.container6 {
+    min-height:36em;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.container6 .container .name6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: black;
+    padding-top: 4em;
+   text-align: center;
+padding-bottom: 2em;}
+
+.container6 .container .name6 span{
+    font-size:1em;
+    color: #cfc695;  
+}
+.container6 div .localwrapper6{
+    max-width: 1000px;
+    text-align: center;
+   
+}
+.container6 div .localwrapper6 .cards .title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: black;
+   text-align: center;
+padding-bottom: 1em;
+}
+.container6 div .localwrapper6 .cards .contant{
+    font-family: 'Georgia Italic';
+    font-size: 1em;
+    color: #666666;
+}
+.container6 div .localwrapper6 .cards .author{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: black;
+}
+
+.container7{
+    width: 100%;
+    min-height: 55em;
+}
+.container7 .contact{
+    padding-top: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: black;
+   text-align: center;
+padding-bottom: 1em;
+}
+.container7 .contact span{
+    font-size:1em;
+    color: #cfc695;  
+}
+.container7 .contant{
+    font-family: 'Georgia Italic';
+    font-size: 1em;
+    color: #666666; 
+    padding-bottom: 6em;
+   margin: 0 3.5em;
+text-align: center;
+}
+.container7 .localwrapper7{
+    max-width: 1200px;
+   min-height: 500px;
+   margin: 0 auto;
+}
+.container7 .localwrapper7 .map{
+    max-height:28em;
+    max-width: 30em;
+
+}
+.container7 .localwrapper7 .inputS{
+    width: 100%;
+    margin-left: 2em;
+
+}
+.container7 .localwrapper7 .inputS .i1{
+    height: 4em;
+    border: #666666 1px;
+    border-style: solid; 
+    margin-bottom: 1em;
+    margin-right: 1em;
+    width: 15em;
+}
+.container7 .localwrapper7 .inputS .i2{
+    height: 4em;
+    width: 15em;
+    border: #666666 1px;
+    border-style: solid; 
+    margin-left: 1em;
+}
+.container7 .localwrapper7 .inputS .i3{
+    height: 4em;
+    width: 32.5em;
+    border: #666666 1px;
+    border-style: solid; 
+    margin-bottom: 1em;
+}
+.container7 .localwrapper7 .inputS .i4{
+    height: 10em;
+    width: 32.5em;
+    margin-bottom: 1em;
+    border: #666666 1px;
+    border-style: solid; 
+}
+.container7 .localwrapper7 .inputS .btn{
+    height: 4em;
+    width: 32.5em;
+   background-color: black;
+}
+.container7 .localwrapper7 .inputS .btn a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  text-align: center;
+    font-size: 1em;
+}
+
+.container7 .open{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+.container7 .smth{
+    font-family: 'Georgia Italic';
+    font-size: 1em;
+    color: #666666;
+    text-align: center;
+    margin-top: 1em;
+}
+.container7 .adres{
+    font-family: 'Georgia Italic';
+    font-size: 1em;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 4em;
+}
+.container7 .adres span{
+    font-family: 'Georgia Italic';
+    font-size: 1em;
+    color: #666666;
+    text-align: center;
+    margin-left: 2em;
+}
+footer{
+    height: 17em;
+    width: 100%;
+    background-color: #f8f8f8;
+   
+}
+footer .localwrapper{
+    width: 10em;
+    text-align: center;
+    margin:0 auto;
+}
+footer .localwrapper svg {
+    padding: 0.3em 0.3em;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+footer .localwrapper #face{
+    font-size: 2em;
+    color: white;
+    background: black;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+ 
+}
+footer .localwrapper #inst{
+    font-size: 2em;
+    color: white;
+    background: black;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+}
+footer .localwrapper #twi{
+    font-size: 2em;
+    color: white;
+    background: black;
+    border-radius: 50%;
+    height: 1.6em;
+    width: 1.6em;
+}
+
+/* footer  svg{
+    padding: 10px 0.77px;
+
+}
+footer  .inst{
+    padding: 0.3em 0.6em;
+}
+footer  .twi{
+    padding: 0.3em 0.5em;
+} */
+footer div .tex1{
+    padding-top: 2em;
+    font-family: 'Georgia Italic';
+    font-weight: italic;
+    font-size: 1em;
+    text-align: center;
+}
+footer div .tex2{
+    font-family: 'Georgia Italic';
+    font-weight: italic;
+    font-size: 1em;
+    text-align: center;
+}
