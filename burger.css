@@ -46,7 +46,7 @@ header{
      @media(max-width: 998px){
          header{
              height: 3em;
-             max-width: 100%;
+             width: 100%;
          }
         header .burger{
             display: inline-block;

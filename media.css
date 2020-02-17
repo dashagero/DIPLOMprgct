@@ -1,4 +1,12 @@
-
+@media(max-width:1600px){
+    .container4 .container .localwrapper{
+        width: 76em;
+        margin-left: -1em;}
+        .container4 .container div .contant{
+      margin-left: -2em;
+        }
+    
+}
 @media(max-width:1300px){
     .container4 .container .localwrapper{
         width: 70em;
@@ -15,11 +23,11 @@
         }
 @media(max-width:1200px){
             .container4 .container .localwrapper{
-                width: auto;
-                margin-left: -2em;}
+                width: 41em;
+                margin-left: 3em;}
                 .container4 .container div .img{
-                       width:25em;
-                       margin-left: -3em;
+                       width:auto;
+                       margin-left: 0em;
                     }
          .container4 .container div .contant{
                     color:#666666;
@@ -61,7 +69,7 @@
 }
 @media(max-width:998px){
     header .container .menu {
-        max-width: 90%;
+       width: 90%;
     }
     .container3 div .fotog div img{
         height:190px;
@@ -146,6 +154,12 @@
   
 }
 @media(max-width:540px){
+    .container5 .container .localwrapper5 div .name5{
+        margin-left: 3em;}
+    .container5 .container .localwrapper5 div .price{
+            margin-left: -3em;
+        }
+    }
  .container2 div img{
     margin-top: 4em;
 height: 120px;
@@ -166,7 +180,6 @@ height: 120px;
          padding-left: 0em;
      }
     
-}
 
 @media(max-width:530px){
     .container7 .localwrapper7 .inputS .i2{  width: 46%;

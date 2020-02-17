@@ -1,5 +1,5 @@
 .wrapper{
-   width: 100%;
+   width: 100% !important ;
 }
 
 .container1{
@@ -120,9 +120,10 @@ font-size: 0.8em;
     font-size: 15px;
 font-weight: 700;
 }
-.container3 div .fotog {
+.container3 div  .fotog {
 max-width: 1200px;
-margin: 0 auto;
+margin: -3em;
+margin-bottom: 3em;
 position: relative;
 }
 .container3 div .fotog div img{
@@ -358,6 +359,7 @@ text-align: center;
 .container7 .localwrapper7 .inputS .i2{
     height: 4em;
     width: 15em;
+    margin-bottom: 1em;
     border: #666666 1px;
     border-style: solid; 
     margin-left: 1em;
